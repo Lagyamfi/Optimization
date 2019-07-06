@@ -1,0 +1,30 @@
+**********************************************************************
+*			OPTIMIZATION				     *
+*	     ASTAR ASSIGNMENT – A ROUTING PROBLEM		     *
+*	   Authors: Lawrence Adu-Gyamfi & Alexis Oger		     *
+*	            Date: 24/12/2018				     *
+**********************************************************************
+
+  
+--------------------Start Node and Goal Node---------------------
+
+The start node and goal node have been hardcoded into the program as this is specific for this assignment.
+To use this for any other nodes, these can be changed in the beginning of the "readbin.c"
+
+____________________________________________________________________
+
+
+-----------------HOW TO EXECUTE PROGRAM------------------------
+
+1. Create all the executables by issuing the make command
+
+	$ make 
+
+2. Create the binary file with "create", "spain.csv" and "<output>.bin" file as output
+
+	$ ./create spain.csv <output>.bin
+
+3. Find the path with "solve" and the binary output file
+
+	$ ./solve <output>.bin
+
